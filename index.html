@@ -1,0 +1,247 @@
+<!DOCTYPE html> <!-- Document type declaration for HTML5 -->
+<html lang="en"> <!-- Start of the HTML document with the 'en' language attribute -->
+
+  <head>
+    <meta charset="UTF-8" /> <!-- Meta tag specifying character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Meta tag for responsive design -->
+    <title>Amazon</title> <!-- Title of the webpage, displayed in the browser tab -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" /> <!-- Link to an external stylesheet named 'style.css' -->
+  </head>
+
+  <body> <!-- Body of the webpage -->
+
+    <header> <!-- Header section of the webpage -->
+      <div class="navbar"> <!-- Navigation bar container -->
+
+        <!-- Logo section -->
+        <div class="nav-logo border">
+          <a href="https://www.amazon.in/" target="_blank"><img src="amazon_logo.png"  alt="amazon_logo"></a> <!-- Placeholder for the logo image -->
+        </div>
+
+        <!-- Delivery address section -->
+        <div class="nav-address border">
+          <p class="add-first">Deliver to</p> <!-- Text: "Deliver to" -->
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i> <!-- Font Awesome location icon -->
+            <p class="add-second">India</p> <!-- Text: "India" -->
+          </div>
+        </div>
+
+        <!-- Search bar section -->
+        <div class="nav-search">
+          <select class="search-select"> <!-- Dropdown for product categories -->
+            <option>ALL</option> <!-- Default option: "ALL" -->
+          </select>
+          <input placeholder="Search Amazon" class="search-input" /> <!-- Input field for searching products -->
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i> <!-- Font Awesome search icon -->
+          </div>
+        </div>
+
+        <!-- Sign-in section -->
+        <div class="nav-signin border">
+          <p><span>Hello, sign in</span></p> <!-- Text: "Hello, sign in" -->
+          <p class="nav-second">Account & List</p> <!-- Text: "Account & List" -->
+        </div>
+
+        <!-- Returns and Orders section -->
+        <div class="nav-return border">
+          <p><span>Returns</span></p> <!-- Text: "Returns" -->
+          <p class="nav-second">& Orders</p> <!-- Text: "Returns & Orders" -->
+        </div>
+
+        <!-- Shopping cart section -->
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i> <!-- Font Awesome shopping cart icon -->
+          cart <!-- Text: "cart" -->
+        </div>
+      </div>
+    </header>
+
+  </body>
+</html>
+
+
+<!-- Start of a new section with class "panel" -->
+<div class="panel">
+
+  <!-- Panel for displaying "All" and a menu icon -->
+  <div class="panel-all">
+    <i class="fa-solid fa-bars"></i> <!-- Font Awesome bars icon -->
+    All
+  </div>
+
+  <!-- Panel for various operations and links -->
+  <div class="panel-ops">
+    <p>Today's Deals</p>
+    <p>Customer Service</p>
+    <p>Registry</p>
+    <p>Gift Cards</p>
+    <p>Sell</p>
+  </div>
+
+  <!-- Panel section for shopping deals in Electronics -->
+  <div class="panel-deals">Shop deals in Electronics</div>
+</div>
+</header>
+
+<!-- Hero section for displaying a message and a link to Amazon India -->
+<div class="hero-section">
+  <div class="hero-msg">
+    <p>
+      You are on amazon.com. You can also shop on Amazon India for millions
+      of products with fast local delivery.
+      <a href="https://www.amazon.in/"target="_blank">Click here to go to amazon.in</a>
+    </p>
+  </div>
+</div>
+
+    <div class="shop-section">
+      <div class="box">
+        <div class="box-content">
+          <h2>Clothes</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box1_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Health & Personal care</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box2_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Furniture</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box3_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Electronics</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box4_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Beauty picks</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box5_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Pet Care</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box6_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>New arrival in Toys</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box7_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Discover fashion Trends</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box8_image.jpg')"
+          ></div>
+          <p style="cursor: pointer;">See more</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="foot-panel1"><a style="cursor: pointer;">Back to Top</a></div>
+      <div class="foot-panel2">
+        <ul>
+          <p>Get to know Us</p>
+          <a style="cursor: pointer;">Careers</a>
+          <a style="cursor: pointer;">Blog</a>
+          <a style="cursor: pointer;">About Amazon</a>
+          <a style="cursor: pointer;">Investor Relations</a>
+          <a style="cursor: pointer;">Amazon Devices</a>
+          <a style="cursor: pointer;">Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Make Money with Us</p>
+          <a style="cursor: pointer;">Sell products on Amazon</a>
+          <a style="cursor: pointer;">Sell on Amazon Business</a>
+          <a style="cursor: pointer;">Sell apps on Amazon</a>
+          <a style="cursor: pointer;">Become an Affiliate</a>
+          <a style="cursor: pointer;">Advertise Your Products</a>
+          <a style="cursor: pointer;">Self-Publish with Us</a>
+          <a style="cursor: pointer;">Host an Amazon Hub</a>
+        </ul>
+        <ul>
+          <p>Amazon Payment Products</p>
+          <a style="cursor: pointer;">Amazon Business Card</a>
+          <a style="cursor: pointer;">Shop with Points</a>
+          <a style="cursor: pointer;">Reload Your Balance</a>
+          <a style="cursor: pointer;">Amazon Currency Converter</a>
+        </ul>
+        <ul>
+          <p>Let Us Help You</p>
+          <a style="cursor: pointer;">Your Account</a>
+          <a style="cursor: pointer;">Your Orders</a>
+          <a style="cursor: pointer;">Shipping Rates & Policies</a>
+          <a style="cursor: pointer;">Returns & Replacements</a>
+          <a style="cursor: pointer;">Manage Your Content and Devices</a>
+          <a style="cursor: pointer;">Amazon Assistant</a>
+          <a style="cursor: pointer;">Help</a>
+        </ul>
+      </div>
+
+      <div class="foot-panel3">
+        <div class="logo"></div>
+      </div>
+      <div class="foot-panel4">
+        <div class="pages">
+          <a>Conditions of Use</a>
+          <a>Privacy Notice</a>
+          <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+          © 1996-2023, Amazon.com, Inc. or its affiliates. All Rights
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
